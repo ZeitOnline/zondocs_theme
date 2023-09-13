@@ -30,6 +30,12 @@ Features
    ``path/to/current/page.suffix``)
 
 
+Local testing
+-------------
+
+Run ``bin/build`` to build whl and use ``pip install zondocs_theme...whl`` to use it in your project.
+
+
 Release process
 ---------------
 
@@ -50,3 +56,12 @@ For a offical release run
     $ bin/release prod
     
 Tag project and update our `Dockerfile <https://github.com/ZeitOnline/docs/blob/main/Dockerfile>`_.
+
+Setup PyPI API token
+----------------
+
+Create file $HOME/.pypirc, token is located in vault zon/v1/pypi/zon-backend:
+
+[pypi]
+  username = __token__
+  password = token

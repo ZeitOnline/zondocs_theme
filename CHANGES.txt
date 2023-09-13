@@ -2,6 +2,13 @@
 CHANGES
 =======
 
+1.0.8 (2023-09-13)
+------------------
+
+- Improve navigation style
+- Search box text with correct color in dark theme
+
+
 1.0.7 (2023-04-05)
 ------------------
 

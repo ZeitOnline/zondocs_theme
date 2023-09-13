@@ -192,6 +192,7 @@ body {
 
 .search input[type=search] {
   background-color: var(--color-background);
+  color: var(--color-text);
   border: none;
   font-size: 1rem;
   margin: 0 .625rem;
@@ -279,6 +280,8 @@ body {
 
 .navigation li a.current {
   cursor: default;
+  font-weight: 700;
+  color: var(--color-text);
 }
 
 /* haha! */
@@ -311,6 +314,14 @@ body {
 
 .navigation li li a {
   padding: 10px 10px 10px 34px;
+}
+
+.navigation .toctree-l2 {
+  font-size: 15px;
+}
+
+.navigation .toctree-l3, .toctree-l4, .toctree-l5 {
+  font-size: 14px;
 }
 
 /* breadcrumbs */
